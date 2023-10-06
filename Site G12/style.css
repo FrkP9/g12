@@ -1,0 +1,82 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,nav, ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    width: 100vw; /* vw : pega toda tela*/
+    background:linear-gradient(0deg, #74bce5 0%, #b2ddad 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: .25rem .5rem;
+    justify-content: center;
+    gap: 1rem;
+}
+header ul {
+    gap: 0.5rem;
+}
+
+header li{
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+header img{
+    width: 10rem;
+}
+
+.back {
+    width: 1248px;
+    height: 980px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+}
+
+.logo_mobile {
+    display: none;
+}
+
+main {
+    background: red;
+    height: 100vw;
+    width: 700px;
+    background:linear-gradient(180deg, #2A83A9 0%, transparent 100%);
+}
+@media (max-width:700px) {
+
+    header li {
+        font-size: 1rem;
+    }
+    .logo_pc {
+        display: none;
+    }
+
+    .logo_mobile {
+        display: block;
+    }
+}
+
+
+
+/* 2A83A9 */
+/* 243109 */
