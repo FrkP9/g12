@@ -68,6 +68,7 @@ header, nav, ul, main, .patrocinadores div {
 }
 
 .seta.esquerda {
+  top:8.5rem;
   left:.2rem;
 }
 
@@ -441,6 +442,11 @@ button:hover {
     top:11rem;
   }
 
+  .seta.esquerda {
+    top:10.5rem;
+    left:.2rem;
+  }
+
   .slide .teste {
     height:24rem;
   }
@@ -556,6 +562,11 @@ button:hover {
     top:9rem;
   }
 
+  .seta.esquerda {
+    top:8.5rem;
+    left:.2rem;
+  }
+
   .slide .teste {
     height:20rem;
   }
@@ -623,6 +634,11 @@ button:hover {
 
   .seta {
     top:7.5rem;
+  }
+
+  .seta.esquerda {
+    top:7rem;
+    left:.2rem;
   }
 
   .slide .teste {

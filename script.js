@@ -19,6 +19,8 @@ window.addEventListener('scroll', () => {
   else header.classList.remove('scroll')
 })
 
+window.addEventListener('load', scrollReveal)
+
 function scrollReveal() {
   let container = document.querySelectorAll('.news div')
 
